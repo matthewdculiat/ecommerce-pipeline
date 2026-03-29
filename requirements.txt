@@ -1,0 +1,22 @@
+# =============================================================================
+# ecommerce-pipeline — Python Dependencies
+# Pinned for reproducibility. Update deliberately, not casually.
+# Generated: 2026-03-29
+# Python: 3.11+
+# =============================================================================
+
+# ── Week 1-2: Dataset ingestion & environment ─────────────────────────────────
+kagglehub==1.0.0
+python-dotenv==1.2.2
+pandas==2.2.3
+boto3==1.42.78
+
+# ── Week 4: Snowflake connector ───────────────────────────────────────────────
+snowflake-connector-python==4.4.0
+
+# ── Week 5-6: dbt transformations ────────────────────────────────────────────
+# Note: dbt-snowflake pulls in dbt-core as a dependency automatically
+dbt-snowflake==1.9.4
+
+# ── Week 7 (Bonus): Data quality checks ──────────────────────────────────────
+great-expectations==1.9.3
